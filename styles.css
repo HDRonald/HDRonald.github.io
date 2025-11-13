@@ -32,3 +32,11 @@ section{margin-bottom:calc(var(--space)*1.25)} section h2{margin:0 0 .25rem 0; f
 footer{border-top:1px solid var(--border); padding:var(--space) 0; color:var(--muted)}
 @media (max-width:679px){ .hero{grid-template-columns:80px 1fr} header .inner{flex-wrap:wrap} }
 @media print{ nav,.skip-link{display:none!important} .card{box-shadow:none} a{color:black; text-decoration:underline} }
+
+/* Hero variant without a photo */
+.hero.one-col{
+  grid-template-columns: 1fr;
+  align-items: start;
+  padding: calc(var(--space)*1.25);
+}
+
