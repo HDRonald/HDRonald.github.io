@@ -35,8 +35,7 @@ footer{border-top:1px solid var(--border); padding:var(--space) 0; color:var(--m
 
 /* Hero variant without a photo */
 .hero.one-col{
-  grid-template-columns: 1fr;
-  align-items: start;
-  padding: calc(var(--space)*1.25);
+  display: block;
+  padding: calc(var(--space) * 2) var(--space);
 }
 
