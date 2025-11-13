@@ -39,3 +39,9 @@ footer{border-top:1px solid var(--border); padding:var(--space) 0; color:var(--m
   padding: calc(var(--space) * 2) var(--space);
 }
 
+/* Two-by-two layout for Technical Skills */
+.grid-cols-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space);
+}
